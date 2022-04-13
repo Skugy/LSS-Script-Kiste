@@ -4,7 +4,8 @@
 // @version      0.1
 // @description  Entfernt alles was Unwichtig ist
 // @author       Skugy
-// @include      *://www.leitstellenspiel.de/
+// @match        https://www.leitstellenspiel.de/*
+// @match        https://polizei.leitstellenspiel.de/*
 // @exclude      *://www.leitstellenspiel.de/mission*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=leitstellenspiel.de
 // @updateURL    https://github.com/Skugy/LSS-Script-Kiste/raw/main/Minimal.user.js
