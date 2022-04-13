@@ -7,7 +7,8 @@
 // @include      *://www.leitstellenspiel.de/
 // @exclude      *://www.leitstellenspiel.de/mission*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=leitstellenspiel.de
-// @downloadURL  https://github.com/Skugy/LSS-Script-Kiste/raw/main/Minimal.js
+// @updateURL    https://github.com/Skugy/LSS-Script-Kiste/raw/main/Minimal.user.js
+// @downloadURL  https://github.com/Skugy/LSS-Script-Kiste/raw/main/Minimal.user.js
 // @grant        none
 // ==/UserScript==
 
