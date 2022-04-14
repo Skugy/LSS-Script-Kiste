@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         Minimal
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  Entfernt alles was Unwichtig ist
 // @author       Skugy
 // @match        https://www.leitstellenspiel.de/*
 // @match        https://polizei.leitstellenspiel.de/*
 // @exclude      *://www.leitstellenspiel.de/mission*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=leitstellenspiel.de
+// @icon         https://icons.duckduckgo.com/ip3/leitstellenspiel.de.ico
 // @updateURL    https://github.com/Skugy/LSS-Script-Kiste/raw/main/Minimal.user.js
 // @downloadURL  https://github.com/Skugy/LSS-Script-Kiste/raw/main/Minimal.user.js
 // @grant        none
@@ -24,5 +24,13 @@
     ktw.parentNode.removeChild( ktw );
     var alli = document.getElementById( 'alliance_no_mission' );
     alli.parentNode.removeChild( alli );
+
+    document.getElementById("radio_panel_body").style.maxHeight = "100%";
+    document.getElementById("radio_panel_body").style.height = "100%";
+
+    document.getElementById("building_panel_body").style.maxHeight = "100%";
+    document.getElementById("building_panel_body").style.height = "100%";
+
+    document.getElementById("missions-panel-body").style.height = "100%";
 
 })();
